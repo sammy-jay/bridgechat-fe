@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
 }
 
 @layer components {
-  .nav-item{
-    @apply text-[18px] ;
+  .nav-item {
+    @apply text-[18px];
+  }
+  .tabSection::-webkit-scrollbar {
+    display: none;
   }
 }

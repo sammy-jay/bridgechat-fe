@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <nav className="flex flex-row justify-between items-center w-full ">
       <p className="text-[24px] font-bold">Bridgechat.ai</p>
-      <ul className="flex flex-row space-x-5 items-center">
+      <ul className="hidden lg:flex flex-row space-x-5 items-center">
         <li className="nav-item">Home</li>
         <li className="nav-item">How It Works</li>
         <li className="nav-item">Why Us?</li>

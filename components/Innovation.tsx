@@ -33,11 +33,11 @@ const Innovation = () => {
     },
   ];
   return (
-    <section className="w-full mx-auto bg-[#FFFFFF] min-h-[100vh] pb-16 px-24">
-      <h1 className="text-[32px] w-[70%] text-left lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold mb-3">
+    <section className="w-full mx-auto bg-[#FFFFFF] min-h-[100vh] pb-16 px-8 md:px-16 lg:px-24">
+      <h1 className="text-[30px] leading-[45px] w-full lg:w-[70%] lg:mx-auto text-left lg:text-center lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold mb-2 lg:mb-4">
         Elevate your business and redefine your customer support
       </h1>
-      <p className="text-[#7D8D96] text-[18px] leading-[35px] mb-8">
+      <p className="text-[14px] leading-[24px] text-[#7D8D96] lg:text-[18px] lg:leading-[35px] mb-4 lg:mb-8">
         From Rapid Response Engines to Multilingual Prowess - Explore the
         Innovation Within!
       </p>
