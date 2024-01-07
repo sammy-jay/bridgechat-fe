@@ -12,7 +12,7 @@ const CTA = () => {
           customer engagement solution designed just for you!
         </p>
       </div>
-      <button className="text-[#203F50] text-[18px] font-semibold text-center leading-[35px] bg-[#D4E4F1] px-8 py-2 mt-8 lg:mt-0 lg:min-w-max w-full">
+      <button className="text-[#203F50] text-[18px] font-semibold text-center leading-[35px] bg-[#D4E4F1] px-8 py-2 mt-8 lg:mt-0">
         Get Started
       </button>
     </section>
@@ -20,3 +20,4 @@ const CTA = () => {
 };
 
 export default CTA;
+//  lg:min-w-min w-full
