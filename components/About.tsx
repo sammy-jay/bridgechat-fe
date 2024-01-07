@@ -28,13 +28,13 @@ const About = () => {
       </div>
 
       <div
-        className={`my-12 flex flex-col lg:flex-row w-full p-4 px-8 lg:px-16 bg-${aboutData[tabIndex].selectionColor}-500 items-center space-y-4 lg:space-x-4 justify-between`}
+        className={`my-12 flex flex-col lg:flex-row w-full p-4 px-8 lg:px-16 ${aboutData[tabIndex].selectionColor} items-center space-y-4 lg:space-x-4 justify-between`}
       >
         <div className="flex-[0.5]">
           <img
             src={aboutData[tabIndex].imageUrl}
             alt="ai image"
-            className="w-full object-contain h-[457px] bg-transparent"
+            className="w-full object-contain h-[457px] "
           />
         </div>
         <div className="flex-[0.5] space-y-4">

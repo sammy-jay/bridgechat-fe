@@ -1,10 +1,23 @@
-"use client"
-import React, { useState } from 'react'
+"use client";
+import React, { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 
 const NavBar = () => {
-  const [showMenu,setShowMenu] = useState(false)
+  const [showMenu, setShowMenu] = useState(false);
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrolled = window.scrollY > 300;
+
+        scrolled && setShowMenu(false);
+      };
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []); 
+
   return (
     <nav className="relative flex flex-row justify-between items-center w-full ">
       <p className="text-[24px] font-bold">Bridgechat.ai</p>
@@ -22,12 +35,13 @@ const NavBar = () => {
       </ul>
 
       {/* Mobile Nav */}
+      <div className={`${showMenu ? "block lg:hidden" : "hidden lg:hidden"} w-[100vw] h-[100vh] bg-gray-800 opacity-50 fixed top-0 left-0 right-0 bottom-0 z-5`} />
       <ul
         className={`lg:hidden ${
           showMenu ? "block lg:hidden" : "hidden lg:hidden"
         } flex-col absolute bg-white w-[200px] right-0 top-2 rounded-md space-y-4 px-4 pt-4 pb-8 text-[14px] transition-all`}
       >
-        <div className="flex justify-end w-full">
+        <div className="flex justify-end w-full z-10">
           <IoMdClose
             className="w-6 h-6 cursor-pointer text-red-500"
             onClick={() => setShowMenu(false)}
@@ -43,6 +57,6 @@ const NavBar = () => {
       </ul>
     </nav>
   );
-}
+};
 
-export default NavBar
+export default NavBar;

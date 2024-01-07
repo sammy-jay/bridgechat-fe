@@ -7,7 +7,7 @@ export const aboutData = [
     imageUrl: "/images/our-solution.png",
     title: "SOLVING THE SUPPORT STRUGGLE",
     subTitle: "Unraveling Customer Service Challenges with BridgeChat AI",
-    selectionColor: "blue",
+    selectionColor: "bg-blue-500",
     // selectionColor: "#00B4CC",
     description:
       "Small businesses struggle with slow responses, language barriers, or high support costs, while handling customers enquiries. BridgeChat uses LLMs trained on your business data with knowledge bases tailored specifically for your business. It helps reduce hallucination to very large extent. Experience seamless, multilingual assistance that is efficient and budget-friendly with BridgeChat AI.",
@@ -18,7 +18,7 @@ export const aboutData = [
     title: "Shaping a Future of AI-Powered Efficiency",
     imageUrl: "/images/our-vision.png",
     subTitle: "Empowering Businesses through Seamless AI Integration",
-    selectionColor: "yellow",
+    selectionColor: "bg-yellow-500",
     // selectionColor: "#F9BF51",
     description:
       "At BridgeChat AI, our vision is crystal clear – to empower businesses by demystifying the use of AI and seamlessly integrating it into their workflows. We are dedicated to guiding your business in unlocking the transformative potential of AI for enhanced efficiency. With BridgeChat AI, meet every customer need and inquiry swiftly and efficiently.",
@@ -29,7 +29,7 @@ export const aboutData = [
     title: "Pioneering AI-Powered Transformation",
     imageUrl: "/images/our-mission.png",
     subTitle: "Transforming Businesses with our Tailored Solutions",
-    selectionColor: "orange",
+    selectionColor: "bg-orange-500",
     // selectionColor: "#FE7E37",
     description:
       "Our mission is to revolutionize small business activities, specifically in marketing and sales, by providing targeted solutions at minimal costs. We strive to enhance conversation efficiency in languages that matter to you, leveraging the power of LLMs for improved customer services. With Bridgechat, empower your business today to thrive in the competitive landscape.",
@@ -40,7 +40,7 @@ export const aboutData = [
     title: "Shaping a Future of AI-Powered Efficiency",
     imageUrl: "/images/our-values.png",
     subTitle: "Empowering Businesses through Seamless AI Integration",
-    selectionColor: "slate",
+    selectionColor: "bg-green-500",
     // selectionColor: "#007888",
     description:
       "At BridgeChat AI, our values define us. Rooted in transparency, innovation, inclusivity, and integrity, they guide every aspect of our journey, from developing cutting-edge solutions to nurturing meaningful relationships. At BridgeChat AI, our values are not just words; they are the driving force behind the excellence we aim to bring to every interaction and innovation.",
