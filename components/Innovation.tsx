@@ -33,7 +33,7 @@ const Innovation = () => {
     },
   ];
   return (
-    <section className="w-full mx-auto bg-[#FFFFFF] min-h-[100vh] pb-16 px-8 md:px-16 lg:px-24">
+    <section className="w-full mx-auto bg-[#FFFFFF] min-h-[100vh] pb-12 lg:pb-24 px-8 md:px-16 lg:px-24">
       <h1 className="text-[30px] leading-[45px] w-full lg:w-[70%] lg:mx-auto text-left lg:text-center lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold mb-2 lg:mb-4">
         Elevate your business and redefine your customer support
       </h1>

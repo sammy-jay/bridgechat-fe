@@ -1,17 +1,30 @@
 import React from 'react'
 
-const TabButton = ({text, selected = false}: {text: string, selected?: boolean}) => {
+const TabButton = ({
+  id,
+  text,
+  selectedId,
+  onClick,
+  selectionColor,
+}: {
+  id: number;
+  text: string;
+  selectedId?: number;
+  onClick: any;
+  selectionColor: string
+}) => {
   return (
     <button
-      className={`min-w-max px-12 lg:px-4 py-1 mx-4 flex-1 text-[16px] lg:text-[20px] leading-[30px] ${
-        selected
-          ? "text-white bg-[#00B4CC]"
+      className={`min-w-max px-12 lg:px-4 py-1 mx-4 flex-1 text-[16px] lg:text-[20px] leading-[30px] capitalize ${
+        selectedId == id
+          ? `text-white bg-${selectionColor}-500`
           : "border-2 border-dashed border-[#868C98] text-[#868C98]"
       }`}
+      onClick={onClick}
     >
       {text}
     </button>
   );
-}
+};
 
 export default TabButton

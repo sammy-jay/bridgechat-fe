@@ -2,7 +2,7 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <section className="w-full mx-auto bg-[#FFFFFF]  py-24 px-8 md:px-16 lg:px-24 flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+    <section className="w-full mx-auto bg-[#FFFFFF]  pb-12 lg:pb-24 px-8 md:px-16 lg:px-24 flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
       <div className="flex-1">
         <h1 className="text-[32px] w-full  lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold mb-4">
           Get Started Today

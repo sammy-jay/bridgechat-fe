@@ -21,7 +21,7 @@ const InnovationItem = ({
         <img
           src="/images/ai.png"
           alt="ai image"
-          className=" w-full object-contain lg:h-[468px] h-[247px]"
+          className=" w-full object-contain lg:h-[428px] h-[247px]"
         />
       </div>
       <div className="flex-[0.5] space-y-8 flex flex-col">
