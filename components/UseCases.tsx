@@ -4,7 +4,7 @@ import { useCasesArray } from "@/data/static";
 
 const UseCases = () => {
   return (
-    <section className="w-full mx-auto bg-[#FFFFFF] min-h-[100vh] py-24  px-8 md:px-16 lg:px-24">
+    <section className="w-full mx-auto bg-[#FFFFFF]  py-24  px-8 md:px-16 lg:px-24">
       <p className="text-[#9A9A9A] text-[14px] tracking-wider lg:text-center uppercase leading-[20px] mb-4">
         OUR USE CASES
       </p>
