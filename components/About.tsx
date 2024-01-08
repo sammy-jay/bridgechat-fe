@@ -28,7 +28,7 @@ const About = () => {
       </div>
 
       <div
-        className={`my-12 flex flex-col lg:flex-row w-full p-4 px-8 lg:px-16 ${aboutData[tabIndex].selectionColor} items-center space-y-4 lg:space-x-4 justify-between`}
+        className={`my-12 flex flex-col lg:flex-row w-full p-4 px-0 lg:px-16 ${aboutData[tabIndex].selectionColor} items-center space-y-4 lg:space-x-4 justify-between`}
       >
         <div className="flex-[0.5]">
           <img

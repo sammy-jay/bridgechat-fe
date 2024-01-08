@@ -39,7 +39,7 @@ const NavBar = () => {
       <ul
         className={`lg:hidden ${
           showMenu ? "block lg:hidden" : "hidden lg:hidden"
-        } flex-col absolute bg-white w-[200px] right-0 top-2 rounded-md space-y-4 px-4 pt-4 pb-8 text-[14px] transition-all`}
+        } flex-col absolute bg-white w-full right-0 top-2 rounded-md space-y-4 px-4 pt-4 pb-8 text-[14px] transition-all`}
       >
         <div className="flex justify-end w-full z-10">
           <IoMdClose

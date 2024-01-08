@@ -13,7 +13,7 @@ const InnovationItem = ({
 }) => {
   return (
     <article
-      className={`my-12 flex flex-col lg:flex-row w-full py-4  bg-[#fff] items-start space-x-4 justify-between ${
+      className={`my-12 flex flex-col lg:flex-row w-full py-4  bg-[#fff] items-start space-y-4 lg:space-y-0 lg:space-x-4 justify-between ${
         reverse && "lg:flex-row-reverse"
       }`}
     >
@@ -24,11 +24,11 @@ const InnovationItem = ({
           className=" w-full object-contain lg:h-[428px] h-[247px]"
         />
       </div>
-      <div className="flex-[0.5] space-y-8 flex flex-col">
+      <div className="flex-[0.5] space-y-4 lg:space-y-8 flex flex-col">
         <h1 className="text-[#2F2F2F]  text-[24px] leading-[35px] lg:text-[40px] font-bold lg:leading-[50px]">
           {title}
         </h1>
-        <ul className="flex space-y-6 list-disc flex-col">
+        <ul className="flex space-y-3 lg:space-y-6 list-disc flex-col">
           {descriptions.map((desc) => (
             <li
               key={desc}
