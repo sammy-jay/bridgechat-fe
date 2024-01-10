@@ -12,6 +12,9 @@ const Footer = () => {
           <p className="w-full lg:w-[70%] lg:text-[#F0F8FF] text-[#7D8D96] text-[18px] leading-[35px]">
             Revolutionizing customer support for small businesses.
           </p>
+          <p className="w-full lg:w-[70%] lg:text-[#F0F8FF] text-[#7D8D96] text-[18px] leading-[35px]">
+            hello@bridgechat.com
+          </p>
         </div>
         <div className="flex w-full lg:flex-[0.5] lg:flex-row flex-col justify-between lg:space-x-4 space-y-8 lg:space-y-0">
           <div>

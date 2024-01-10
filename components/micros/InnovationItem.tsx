@@ -13,15 +13,19 @@ const InnovationItem = ({
 }) => {
   return (
     <article
-      className={`my-12 flex flex-col lg:flex-row w-full py-4  bg-[#fff] items-start space-y-4 lg:space-y-0 lg:space-x-4 justify-between ${
+      className={`my-12 flex flex-col lg:flex-row w-full py-4  bg-[#fff] items-start space-y-4 lg:space-y-0 justify-between ${
         reverse && "lg:flex-row-reverse"
       }`}
     >
-      <div className="lg:flex-[0.5] mb-4 lg:mb-0 w-full">
+      <div
+        className={`lg:flex-[0.5] mb-4 lg:mb-0 w-full lg:mr-12 ${
+          reverse && "lg:flex-row-reverse lg:mr-0 lg:ml-12"
+        }`}
+      >
         <img
-          src="/images/ai.png"
+          src={imageUrl}
           alt="ai image"
-          className=" w-full object-contain lg:h-[428px] h-[247px]"
+          className=" w-full object-contain "
         />
       </div>
       <div className="flex-[0.5] space-y-4 lg:space-y-8 flex flex-col">

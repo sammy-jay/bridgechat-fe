@@ -20,12 +20,12 @@ const NavBar = () => {
 
   return (
     <nav className="relative flex flex-row justify-between items-center w-full ">
-      <p className="text-[24px] font-bold">Bridgechat.ai</p>
+      <p className="text-[24px] text-[#005A66] font-bold">Bridgechat.ai</p>
       <GiHamburgerMenu
         className="lg:hidden w-8 h-8 cursor-pointer"
         onClick={() => setShowMenu(true)}
       />
-      <ul className="hidden lg:flex flex-row space-x-5 items-center">
+      <ul className="hidden lg:flex flex-row space-x-5 items-center text-[#525866]">
         <li className="nav-item">Home</li>
         <li className="nav-item">How It Works</li>
         <li className="nav-item">Why Us?</li>
@@ -35,7 +35,11 @@ const NavBar = () => {
       </ul>
 
       {/* Mobile Nav */}
-      <div className={`${showMenu ? "block lg:hidden" : "hidden lg:hidden"} w-[100vw] h-[100vh] bg-gray-800 opacity-50 fixed top-0 left-0 right-0 bottom-0 z-5`} />
+      <div
+        className={`${
+          showMenu ? "block lg:hidden" : "hidden lg:hidden"
+        } w-[100vw] h-[100vh] bg-gray-800 opacity-50 fixed top-0 left-0 right-0 bottom-0 z-5`}
+      />
       <ul
         className={`lg:hidden ${
           showMenu ? "block lg:hidden" : "hidden lg:hidden"

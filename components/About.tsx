@@ -9,6 +9,7 @@ const About = () => {
 
   return (
     <section className="w-full mx-auto bg-[#FFFFFF] py-12 lg:py-24 px-8 md:px-16 lg:px-24">
+      <p className="text-[#FE7E37] lg:text-center text-left uppercase font-bold text-[14px] leading-[20px]">about us</p>
       <h1 className="text-[30px] leading-[50px] w-full lg:w-[70%] lg:mx-auto text-left lg:text-center lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold">
         Swift customer service that transforms your business
       </h1>
