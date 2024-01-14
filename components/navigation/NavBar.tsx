@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <nav className="relative flex flex-row justify-between items-center w-full ">
-      <p className="text-[24px] text-[#005A66] font-bold">Bridgechat.ai</p>
+      <p className="text-[24px] text-[#005A66] font-bold">BridgeChat AI</p>
       <GiHamburgerMenu
         className="lg:hidden w-8 h-8 cursor-pointer"
         onClick={() => setShowMenu(true)}
