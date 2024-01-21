@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
@@ -26,9 +27,16 @@ const NavBar = () => {
         onClick={() => setShowMenu(true)}
       />
       <ul className="hidden lg:flex flex-row space-x-5 items-center text-[#525866]">
-        <li className="nav-item">Home</li>
-        <li className="nav-item">How It Works</li>
-        <li className="nav-item">Why Us?</li>
+        <Link href="#hero">
+          <li className="nav-item">Home</li>
+        </Link>
+        <Link href="#hiw">
+          <li className="nav-item">How It Works</li>
+        </Link>
+        <Link href="#why-us">
+          <li className="nav-item">Why Us?</li>
+        </Link>
+
         <button className="text-white bg-[#00B4CC] px-[48px] py-[16px] ">
           Get Started
         </button>
@@ -51,10 +59,15 @@ const NavBar = () => {
             onClick={() => setShowMenu(false)}
           />
         </div>
-        <li className="nav-item ">Home</li>
-        <li className="nav-item">How It Works</li>
-        <li className="nav-item">Why Us?</li>
-        <li className="nav-item">Blog</li>
+        <Link href="#hero">
+          <li className="nav-item">Home</li>
+        </Link>
+        <Link href="#hiw">
+          <li className="nav-item">How It Works</li>
+        </Link>
+        <Link href="#why-us">
+          <li className="nav-item">Why Us?</li>
+        </Link>
         <button className="text-white bg-[#00B4CC] px-[40px] py-[10px] rounded-md text-left">
           Get Started
         </button>

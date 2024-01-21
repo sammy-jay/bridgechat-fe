@@ -4,7 +4,17 @@ import HIWItem from "./micros/HIWItem";
 
 const HowItWorks = () => {
   return (
-    <section className="w-full mx-auto bg-[#FFFFFF]  py-12 lg:py-24 px-8 md:px-16 lg:px-24">
+    <section
+      id="hiw"
+      className="relative w-full mx-auto bg-[#FFFFFF]  py-6 lg:py-12 px-8 md:px-16 lg:px-24"
+    >
+      <div className="hidden lg:block absolute -left-32 -top-20">
+        <img
+          src="/images/3d-images/Ball.png"
+          alt="3d asset"
+          className="h-[196px]"
+        />
+      </div>
       <h1 className="text-[32px] w-full lg:mx-auto lg:text-center lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold mb-4">
         How BridgeChat AI Works
       </h1>

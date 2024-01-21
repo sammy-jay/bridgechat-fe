@@ -2,7 +2,10 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <section className="w-full mx-auto bg-[#FFFFFF] py-12 lg:py-24 px-8 md:px-16 lg:px-24">
+    <section
+      id="cta"
+      className="w-full mx-auto bg-[#FFFFFF] py-12 lg:py-24 px-8 md:px-16 lg:px-24"
+    >
       <section className="lg:bg-[#F1FFFF] px-0 md:px-16 lg:px-24 flex flex-row lg:flex-row justify-between items-center space-x-0 lg:space-x-12">
         <img
           src="/images/Group (2).png"

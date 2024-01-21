@@ -4,7 +4,10 @@ import { whyUsArray } from "@/data/static";
 
 const WhyUs = () => {
   return (
-    <section className="w-full mx-auto bg-[#FFFFFF] py-12 lg:py-24  px-8 md:px-16 lg:px-24">
+    <section
+      id="why-us"
+      className="w-full mx-auto bg-[#FFFFFF] py-6 lg:py-12  px-8 md:px-16 lg:px-24"
+    >
       <h1 className="text-[32px] w-full lg:w-[70%] lg:text-center lg:mx-auto lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold mb-4">
         <span className="text-[#FE7E37]">Choose Excellence</span>: Why
         BridgeChat AI Stands Out

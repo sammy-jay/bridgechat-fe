@@ -13,7 +13,7 @@ const InnovationItem = ({
 }) => {
   return (
     <article
-      className={`my-12 flex flex-col lg:flex-row w-full py-4  bg-[#fff] items-start space-y-4 lg:space-y-0 justify-between ${
+      className={`my-6 flex flex-col lg:flex-row w-full py-4  bg-[#fff] items-start space-y-4 lg:space-y-0 justify-between ${
         reverse && "lg:flex-row-reverse"
       }`}
     >
@@ -25,7 +25,7 @@ const InnovationItem = ({
         <img
           src={imageUrl}
           alt="ai image"
-          className=" w-full object-contain "
+          className="w-full lg:h-[457px]"
         />
       </div>
       <div className="flex-[0.5] space-y-4 lg:space-y-8 flex flex-col">
@@ -34,16 +34,16 @@ const InnovationItem = ({
         </h1>
         <ul className="flex space-y-3 lg:space-y-6 list-none flex-col">
           {descriptions.map((desc) => (
-            <div key={desc.text} className="flex flex-row space-x-2 items-start">
+            <div
+              key={desc.text}
+              className="flex flex-row space-x-2 items-start"
+            >
               <img
                 src={desc.liImage}
                 alt="ai image"
                 className=" w-[48px] object-contain "
               />
-              <li
-                
-                className="text-[14px] lg:text-[18px] text-[#7D8D96] leading-[24px] lg:leading-[35px]"
-              >
+              <li className="text-[14px] lg:text-[18px] text-[#7D8D96] leading-[24px] lg:leading-[35px]">
                 {desc.text}
               </li>
             </div>

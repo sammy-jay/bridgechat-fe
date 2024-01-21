@@ -8,7 +8,7 @@ const About = () => {
   const [tabIndex, setTabIndex] = useState(0);
 
   return (
-    <section className="w-full mx-auto bg-[#FFFFFF] py-12 lg:py-24 px-8 md:px-16 lg:px-24">
+    <section id="about" className="w-full mx-auto bg-[#FFFFFF] py-12 lg:py-24 px-8 md:px-16 lg:px-24">
       <p className="text-[#FE7E37] lg:text-center text-left uppercase font-bold text-[14px] leading-[20px]">
         about us
       </p>
@@ -53,7 +53,7 @@ const About = () => {
           <h2 className="text-[20px] lg:text-[24px] text-[#2F2F2F] font-bold leading-[35px]">
             {aboutData[tabIndex].subTitle}
           </h2>
-          <p className="text-[14px] lg:text-[18px] text-[#525866] leading-[35px]">
+          <p className="text-[14px] lg:text-[18px] text-[#525866] leading-[24px] lg:leading-[35px]">
             {aboutData[tabIndex].description}
           </p>
         </div>

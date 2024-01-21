@@ -10,7 +10,7 @@ body {
 
 @layer components {
   .nav-item {
-    @apply text-[16px] lg:text-[18px] cursor-pointer;
+    @apply text-[16px] lg:text-[18px] cursor-pointer font-bold;
   }
   .tabSection::-webkit-scrollbar {
     display: none;
