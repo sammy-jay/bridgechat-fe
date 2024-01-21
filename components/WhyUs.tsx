@@ -13,7 +13,7 @@ const WhyUs = () => {
         Discover Unique Advantages for Instant Support, AI Precision, and
         Tailored Solutions
       </p>
-      <article className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 lg:gap-4 bg-[#FFEFD8] py-8 opacity-30">
+      <article className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 lg:gap-4 py-8 bg-orange-50">
         {whyUsArray.map((reason) => (
           <SingleReason {...reason} key={reason.id} />
         ))}

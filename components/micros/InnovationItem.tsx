@@ -4,12 +4,12 @@ const InnovationItem = ({
   imageUrl,
   title,
   descriptions,
-  reverse = false
+  reverse = false,
 }: {
   imageUrl: string;
   title: string;
   reverse?: boolean;
-  descriptions: string[];
+  descriptions: any[];
 }) => {
   return (
     <article
@@ -32,14 +32,21 @@ const InnovationItem = ({
         <h1 className="text-[#2F2F2F]  text-[24px] leading-[35px] lg:text-[40px] font-bold lg:leading-[50px]">
           {title}
         </h1>
-        <ul className="flex space-y-3 lg:space-y-6 list-disc flex-col">
+        <ul className="flex space-y-3 lg:space-y-6 list-none flex-col">
           {descriptions.map((desc) => (
-            <li
-              key={desc}
-              className="text-[14px] lg:text-[18px] text-[#7D8D96] leading-[24px] lg:leading-[35px]"
-            >
-              {desc}
-            </li>
+            <div key={desc.text} className="flex flex-row space-x-2 items-start">
+              <img
+                src={desc.liImage}
+                alt="ai image"
+                className=" w-[48px] object-contain "
+              />
+              <li
+                
+                className="text-[14px] lg:text-[18px] text-[#7D8D96] leading-[24px] lg:leading-[35px]"
+              >
+                {desc.text}
+              </li>
+            </div>
           ))}
         </ul>
       </div>

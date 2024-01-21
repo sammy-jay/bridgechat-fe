@@ -2,7 +2,7 @@ import React from "react";
 
 type SingleUseCaseProp = {
   id: number;
-  Icon: any;
+  Icon: string;
   title: string;
   description: string;
 };
@@ -10,7 +10,7 @@ type SingleUseCaseProp = {
 const SingleUseCase = ({ id, Icon, title, description }: SingleUseCaseProp) => {
   return (
     <div className="flex flex-col space-y-3 p-[32px] pb-0 border-t-[1px] border-l-[0.5px] border-r-[0.5px] border-b-0 border-[#BCBCBC]">
-      <Icon className="text-[#FE7E37] w-6 h-6 font-light" />
+      <img src={Icon} alt="ai image" className=" w-[24px] object-contain " />
       <h2 className="text-[#203F50] text-[20px] leading-[30px] lg:text-[24px] lg:leading-[35px] font-bold">
         {title}
       </h2>

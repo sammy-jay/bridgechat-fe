@@ -2,15 +2,19 @@ import React from 'react'
 
 type SingleReasonProp = {
   id: number;
-  Icon: any;
+  Icon: string;
   title: string;
   description: string;
 };
 
 const SingleReason = ({ id, Icon, title, description }: SingleReasonProp) => {
   return (
-    <div className="flex flex-row space-x-4 justify-between px-[16px] lg:p-[32px] pb-0">
-      <Icon className="text-[#FE7E37] w-6 h-6 lg:w-10 lg:h-10 font-light mt-[30px]" />
+    <div className="flex flex-row space-x-4 justify-between px-[16px] lg:p-[32px] pb-0 items-start">
+      <img
+        src={Icon}
+        alt="ai image"
+        className="w-[28px] lg:w-[40px] object-contain "
+      />
       <div className="flex-1">
         <h2 className="text-[#525866] text-[24px] leading-[35px]  font-bold">
           {title}

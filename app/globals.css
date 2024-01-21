@@ -15,5 +15,8 @@ body {
   .tabSection::-webkit-scrollbar {
     display: none;
   }
+  .icon-style{
+    @apply bg-[#FFFFFF] text-[#007888] h-[36px] w-[36px] rounded-full p-[4px] flex flex-row justify-center items-center cursor-pointer hover:animate-bounce transition-all;
+  }
 }
 
