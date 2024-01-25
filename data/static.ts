@@ -8,8 +8,8 @@ export const aboutData = [
     icon: "/images/about-icons/solution icon 2.png",
     title: "SOLVING THE SUPPORT STRUGGLE",
     subTitle: "Unraveling Customer Service Challenges with BridgeChat AI",
-    // selectionColor: "bg-blue-500",
-    selectionColor: "#00B4CC",
+    selectionColor: "bg-[#effdfd]",
+    // selectionColor: "#effdfd",
     description:
       "Small businesses struggle with slow responses, language barriers, or high support costs, while handling customers enquiries. BridgeChat uses LLMs trained on your business data with knowledge bases tailored specifically for your business. It helps reduce hallucination to very large extent. Experience seamless, multilingual assistance that is efficient and budget-friendly with BridgeChat AI.",
   },
