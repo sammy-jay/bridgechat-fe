@@ -70,7 +70,7 @@ const About = () => {
             <img
               src={aboutData[tabIndex].imageUrl}
               alt="ai image"
-              className="w-full object-contain h-[457px] bg-transparent"
+              className="w-full object-contain lg:h-[457px] bg-transparent"
             />
           </div>
           <div className="flex-[0.5] space-y-4">
@@ -99,7 +99,7 @@ const About = () => {
             <img
               src={aboutData[tabIndex].imageUrl}
               alt="ai image"
-              className="w-full object-contain h-[457px] bg-transparent"
+              className="w-full object-contain lg:h-[457px] bg-transparent"
             />
           </div>
           <div className="flex-[0.5] space-y-4">
@@ -128,7 +128,7 @@ const About = () => {
             <img
               src={aboutData[tabIndex].imageUrl}
               alt="ai image"
-              className="w-full object-contain h-[457px] bg-transparent"
+              className="w-full object-contain lg:h-[457px] bg-transparent"
             />
           </div>
           <div className="flex-[0.5] space-y-4">
@@ -157,7 +157,7 @@ const About = () => {
             <img
               src={aboutData[tabIndex].imageUrl}
               alt="ai image"
-              className="w-full object-contain h-[457px] bg-transparent"
+              className="w-full object-contain lg:h-[457px] bg-transparent"
             />
           </div>
           <div className="flex-[0.5] space-y-4">
