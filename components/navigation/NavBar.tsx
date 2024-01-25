@@ -38,7 +38,7 @@ const NavBar = () => {
         </Link>
 
         <button className="text-white bg-[#00B4CC] px-[48px] py-[16px] ">
-          Get Started
+          <Link href="#footer">Get Started</Link>
         </button>
       </ul>
 
@@ -69,7 +69,7 @@ const NavBar = () => {
           <li className="nav-item">Why Us?</li>
         </Link>
         <button className="text-white bg-[#00B4CC] px-[40px] py-[10px] rounded-md text-left">
-          Get Started
+          <Link href="#footer">Get Started</Link>
         </button>
       </ul>
     </nav>

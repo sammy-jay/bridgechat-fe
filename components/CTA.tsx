@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CTA = () => {
@@ -21,7 +22,7 @@ const CTA = () => {
             customer engagement solution designed just for you!
           </p>
           <button className="text-[#F0F8FF] text-[18px] font-semibold text-center leading-[35px] bg-[#00B4CC] px-12 py-2">
-            Get Started
+            <Link href="#footer">Get Started</Link>
           </button>
         </div>
       </section>

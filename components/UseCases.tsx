@@ -15,13 +15,13 @@ const UseCases = () => {
           className="h-[200px] object-contain"
         />
       </div>
-      <p className="text-[#FE7E37] text-[14px] tracking-wider lg:text-center uppercase leading-[20px] mb-4 font-bold">
+      <p className="text-[#FE7E37] text-[14px] tracking-wider text-center uppercase leading-[20px] mb-4 font-bold">
         OUR USE CASES
       </p>
-      <h1 className="text-[32px] w-full lg:mx-auto lg:text-center lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold">
+      <h1 className="text-[32px] w-full lg:mx-auto text-center lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold">
         Ideal for everyone,
       </h1>
-      <h1 className="text-[32px] w-full  lg:mx-auto lg:text-center lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold mb-8">
+      <h1 className="text-[32px] w-full  lg:mx-auto text-center lg:text-[50px] lg:leading-[65px] text-[#2F2F2F] font-bold mb-8">
         but especially for ...
       </h1>
 

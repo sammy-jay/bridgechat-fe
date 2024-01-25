@@ -6,6 +6,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Innovation from "@/components/Innovation";
 import UseCases from "@/components/UseCases";
 import WhyUs from "@/components/WhyUs";
+import BackToTopButton from "@/components/micros/BackToTop";
 import React from "react";
 
 const RootPage = () => {
@@ -19,6 +20,7 @@ const RootPage = () => {
       <UseCases />
       <CTA />
       <Footer />
+      <BackToTopButton/>
     </div>
   );
 };

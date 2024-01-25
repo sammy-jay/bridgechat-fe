@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./navigation/NavBar";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
             handling and supercharge efficiency, reducing costs effectively
           </p>
           <button className="text-white bg-[#00B4CC] px-[48px] py-[16px] max-w-fit	">
-            Get Started
+            <Link href="#footer">Get Started</Link>
           </button>
         </div>
         <div className="relative w-full lg:w-2/5">
